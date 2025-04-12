@@ -290,6 +290,10 @@ MonoBehaviour:
   AnimatedTarget: {fileID: 7878188483763672217}
   LayerIndex: 0
   Instructions:
+  - FullHash: 673680265
+    Camera: {fileID: 7413298183530259483}
+    ActivateAfter: 0
+    MinDuration: 0
   - FullHash: 1120059995
     Camera: {fileID: 7260655456714652760}
     ActivateAfter: 0
@@ -300,10 +304,6 @@ MonoBehaviour:
     MinDuration: 0
   - FullHash: 9546678
     Camera: {fileID: 883029752057066908}
-    ActivateAfter: 0
-    MinDuration: 0
-  - FullHash: 673680265
-    Camera: {fileID: 7413298183530259483}
     ActivateAfter: 0
     MinDuration: 0
   HashOfParent:
