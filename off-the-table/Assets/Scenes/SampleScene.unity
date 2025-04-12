@@ -1587,6 +1587,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: SwitchViews, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 3993093308041807087, guid: 1c49ccfccd4e2cfd7a01913f4fd4c5b2, type: 3}
+      propertyPath: wallet
+      value: 
+      objectReference: {fileID: 11400000, guid: afb6c41c11fab1a4e8b030165b589ce3, type: 2}
     - target: {fileID: 5000008252747216884, guid: 1c49ccfccd4e2cfd7a01913f4fd4c5b2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 2
@@ -1966,6 +1970,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 586051791825840560, guid: 36619ff093c19daf19ee09baab296327, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.58
+      objectReference: {fileID: 0}
     - target: {fileID: 3738724818894862076, guid: 36619ff093c19daf19ee09baab296327, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.64

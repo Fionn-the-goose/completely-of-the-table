@@ -7,7 +7,6 @@ public class PlantPot : MonoBehaviour
     private PlantSO plantInfo;
     private bool isBlocked;
     private bool canYealdProduce;
-
     [SerializeField] private SpriteRenderer plantVisuals;     
     void Start()
     {

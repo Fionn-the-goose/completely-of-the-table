@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ToothPlant
   m_EditorClassIdentifier: 
   spriteSappling: {fileID: -8761825896554439082, guid: 08da404a02076de1db2d6f13e979c225, type: 3}
-  spriteGrowing: {fileID: -4077204021987784083, guid: 6f855c3ded56f3e7e953dd9fc9ddb7fc, type: 3}
+  spriteGrowing: {fileID: -6632945044531500141, guid: 6f855c3ded56f3e7e953dd9fc9ddb7fc, type: 3}
   spriteReady: {fileID: -8058893481341008243, guid: 456ef1e7189a42f99a6ee38d722c8a52, type: 3}
   timeToGrow: 2
   timeToMature: 2
