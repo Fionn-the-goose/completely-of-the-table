@@ -8,8 +8,11 @@ public class PlantPot : MonoBehaviour
     private bool isBlocked;
     private bool canYealdProduce;
 
-    public SpriteRenderer plantVisuals;     
-    [SerializeField] private SpriteRenderer Showcase;
+    [SerializeField] private SpriteRenderer plantVisuals;     
+    void Start()
+    {
+        plantVisuals.sprite = null;
+    }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
