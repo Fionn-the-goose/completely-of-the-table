@@ -1,53 +1,75 @@
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class MixIng : MonoBehaviour {
 
-    private int collision_count;
     private string ing_A;
     private string ing_B;
     public List<PlantSO> plantList;
-
+    public Sapling sed;
+    private bool item_created = false;
+    private bool first_item = false;
+    private bool second_item = false;
+    PlantSO pee;
     void Update() {
-        if(collision_count == 2){
-            Sapling sap = mix_ing(ing_A, ing_B);
-            createItem((Vector2)transform.position, sap);
-            collision_count = 0;
-        }
-    }
-    public void createItem(Vector2 pos, Sapling item){
-        Instantiate(item, pos, Quaternion.identity);
-    }
 
-    void OnCollisionEnter2D(Collision2D collision)  {
-        
-        if(collision_count == 0){
-            Debug.Log(collision_count);
-            GameObject tmp = collision.gameObject;
-            ing_A = tmp.GetComponent<Ingediens>().name;
-            collision_count += 1;
-            Destroy(collision.gameObject);
-        }
-        if(collision_count == 1){
-            GameObject tmp = collision.gameObject;
-            ing_B = tmp.GetComponent<Ingediens>().name;
-            collision_count += 1;
-            Destroy(collision.gameObject);
-        }
-        
-    }
-
-    private Sapling mix_ing(string A, string B){
-        PlantSO pee;
-        Sapling seed = new Sapling();
-        foreach(var plant in plantList){
-            if((plant.firstIng.name == A || plant.firstIng.name == B) && (plant.secondIng.name == A || plant.secondIng.name == B) ){
-                pee = plant;
+        if(first_item == true && second_item == true){
+            Debug.Log("Both true");
+            if(item_created == false){
+                if(ing_A != null && ing_B != null){
+                    mix_ing(ing_A, ing_B);
+                }
+                
+                Sapling seed = Instantiate(sed, (Vector2)transform.position, Quaternion.identity);
                 seed.setPlantType(pee);
+                item_created = true;
             }
+            
+            first_item = false;
+            second_item = false;
         }
-        
-        return seed;
+        if(first_item == false && second_item == false){
+            item_created = false;
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+         if(first_item == false && second_item == false){
+            GameObject tmp = collision.gameObject;
+            ing_A = tmp.GetComponent<Ingediens>()._name;
+            }
+        if(first_item == true && second_item == false){
+            GameObject tmp = collision.gameObject;
+            ing_B = tmp.GetComponent<Ingediens>()._name;
+        }
+        Destroy(collision.gameObject);
+    }
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if(first_item == false && second_item == false){
+            first_item = true;
+        }
+        if(first_item == true && second_item == false){
+            second_item = true;
+        }
+    }
+
+
+
+    private void mix_ing(string A, string B){
+        Debug.Log("Ingredient A: " + A);
+        Debug.Log("Ingredient B: " + B);
+        foreach(var plant in plantList){
+            Debug.Log(plant.firstIng._name + " " + plant.secondIng._name);
+            if((plant.firstIng._name == A || plant.firstIng._name == B) && (plant.secondIng._name == A || plant.secondIng._name == B) ){
+                pee = plant;
+                Debug.Log(pee.name);
+                
+            }
+            else Debug.Log("no plant found");
+        }
     }
 
 }

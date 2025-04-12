@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      milly.png2_0: 1739799758743500549
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

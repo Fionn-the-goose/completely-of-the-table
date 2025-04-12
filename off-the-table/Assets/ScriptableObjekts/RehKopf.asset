@@ -17,4 +17,6 @@ MonoBehaviour:
   spriteReady: {fileID: 1824088542975676714, guid: de88685eb361a38a5ac4e8fb2157f9e2, type: 3}
   timeToGrow: 2
   timeToMature: 2
+  firstIng: {fileID: 5296351128894693059, guid: d00c67ef59b057e4e92625dfb1347486, type: 3}
+  secondIng: {fileID: 5296351128894693059, guid: 00c97ff69e5e17d4692aad84b93dcbf8, type: 3}
   Sound: {fileID: 0}
