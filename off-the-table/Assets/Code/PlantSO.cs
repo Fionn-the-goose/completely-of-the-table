@@ -8,5 +8,7 @@ public class PlantSO : ScriptableObject
     public Sprite spriteReady;
     public float timeToGrow;
     public float timeToMature;
+    public Ingediens firstIng;
+    public Ingediens secondIng;
     public AudioClip Sound;
 }

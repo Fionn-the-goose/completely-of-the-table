@@ -11,4 +11,9 @@ public class Sapling : Item
         return plant;
     }
 
+    public void setPlantType(PlantSO type){
+        plant = type;
+
+    }
+
 }

@@ -8,9 +8,11 @@ public class Item : MonoBehaviour  {
     [SerializeField] private AudioClip pickup_sound;
     [SerializeField] private AudioClip dropdown_sound;
 
+
     public string _name;
     private bool dragging;
     private Vector2 offset, original_pos;
+
 
     void Awake() {
         original_pos = transform.position;
@@ -37,4 +39,6 @@ public class Item : MonoBehaviour  {
     Vector2 GetMousePos() {
         return Camera.main.ScreenToWorldPoint(Input.mousePosition);
     }
+
+    
 }

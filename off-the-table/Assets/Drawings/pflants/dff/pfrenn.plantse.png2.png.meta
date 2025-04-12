@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pfrenn.plantse.png2_0: 2925536591434213895
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
