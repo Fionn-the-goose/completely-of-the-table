@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Plant", menuName = "Scriptable Objects/Plant")]
-public class Plant : ScriptableObject
+public class PlantSO : ScriptableObject
 {
     public Sprite spriteSappling;
     public Sprite spriteGrowing;
