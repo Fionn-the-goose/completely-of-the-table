@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kackatus.png1_0: 5781175249468801161
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

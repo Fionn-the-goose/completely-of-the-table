@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      frauzahn.png1_0: -8761825896554439082
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

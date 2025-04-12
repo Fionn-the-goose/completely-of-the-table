@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: de88685eb361a38a5ac4e8fb2157f9e2
+guid: 603c947e6b800594bb760395892f0f84
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1824088542975676714
-    second: dasreeeeeh.png3_0
+      213: 4770024833333551804
+    second: Background_test_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dasreeeeeh.png3_0
+      name: Background_test_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 5
-        width: 240
-        height: 503
+        x: 0
+        y: 0
+        width: 3223
+        height: 2726
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a21dcea8dd6705910800000000000000
-      internalID: 1824088542975676714
+      spriteID: cb263a03058823240800000000000000
+      internalID: 4770024833333551804
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      dasreeeeeh.png3_0: 1824088542975676714
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
