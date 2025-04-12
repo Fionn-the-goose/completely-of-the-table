@@ -7,6 +7,8 @@ public class Item : MonoBehaviour  {
     [SerializeField] private AudioSource _audioSource;
     [SerializeField] private AudioClip pickup_sound;
     [SerializeField] private AudioClip dropdown_sound;
+
+    public string _name;
     private bool dragging;
     private Vector2 offset, original_pos;
 
