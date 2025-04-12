@@ -17,14 +17,16 @@ public class PlantPot : MonoBehaviour
         if(collision.gameObject.GetComponent<Sapling>()!=null && !isBlocked){
             plantInfo = collision.gameObject.GetComponent<Sapling>().destroy_sap();
             isBlocked = true;
+            StartCoroutine(GrowCoroutine());
         }
     }
     public IEnumerator GrowCoroutine(){
+        
         plantVisuals.sprite = plantInfo.spriteSappling;
         yield return new WaitForSeconds(plantInfo.timeToGrow);
         plantVisuals.sprite = plantInfo.spriteGrowing;
         yield return new WaitForSeconds(plantInfo.timeToMature);
-        plantVisuals.sprite = plantInfo.spriteGrowing;
+        plantVisuals.sprite = plantInfo.spriteReady;
     }
 
 }
