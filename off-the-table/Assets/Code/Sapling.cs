@@ -1,16 +1,13 @@
 using UnityEngine;
 
-public class Sapling : MonoBehaviour
+public class Sapling : Item
 {
     [SerializeField] private Plant plant;
-    void Start()
-    {
-        
+    [SerializeField] private SpriteRenderer sap_sprite;
+
+    public Plant destroy_sap(){
+        Destroy(this);
+        return plant;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
