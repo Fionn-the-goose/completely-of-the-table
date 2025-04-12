@@ -2,11 +2,12 @@ using UnityEngine;
 
 public class Sapling : Item
 {
-    [SerializeField] private Plant plant;
+    [SerializeField] private PlantSO plant;
     [SerializeField] private SpriteRenderer sap_sprite;
 
-    public Plant destroy_sap(){
-        Destroy(this);
+    public PlantSO destroy_sap(){
+        Debug.Log($"Sapling Destroyed");
+        Destroy(this.gameObject);
         return plant;
     }
 
