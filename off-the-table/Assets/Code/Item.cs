@@ -25,12 +25,14 @@ public class Item : MonoBehaviour  {
         dragging = true;
         offset = GetMousePos() - (Vector2)transform.position;
         _audioSource.PlayOneShot(pickup_sound);
+        GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
     }
 
     void OnMouseUp(){
         //transform.position = original_pos;
         dragging = false;
         _audioSource.PlayOneShot(dropdown_sound);
+        GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
     }
     Vector2 GetMousePos() {
         return Camera.main.ScreenToWorldPoint(Input.mousePosition);
