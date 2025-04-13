@@ -23,7 +23,7 @@ public class PlantPot : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log($"There is something: " + collision.gameObject.name);
+        //Debug.Log($"There is something: " + collision.gameObject.name);
         if(collision.gameObject.GetComponent<Sapling>()!=null && !isBlocked){
             plantInfo = collision.gameObject.GetComponent<Sapling>().destroy_sap();
             isBlocked = true;
