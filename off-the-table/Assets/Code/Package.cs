@@ -6,7 +6,7 @@ public class Package : Item {
     [SerializeField] private AudioClip packing;
     private List<GameObject> ings = new();
     private bool box_sent = false;
-    [SerializeField] Vector3 box_pos;
+    [SerializeField] Transform box_pos;
     public int box_speed;
 
     void OnCollisionEnter2D(Collision2D collision) {
@@ -21,9 +21,13 @@ public class Package : Item {
 
     void Update()
     {
-        //if(box_sent == true && transform.position != box_pos){
-        //    transform.
-        //}
+        base.Update();
+        if(box_sent == true && transform.position != box_pos.position){
+            transform.position = Vector3.MoveTowards(transform.position, box_pos.position, box_speed*Time.deltaTime);
+        }
+        if(box_sent == true && transform.position == box_pos.position){
+            box_sent = false;
+        }
     }
 
     public void sendBox(){
