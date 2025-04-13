@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dbf6a64c5689fa59a6326736ab97d92, type: 3}
+  m_Name: Knochen
+  m_EditorClassIdentifier: 
+  spriteSappling: {fileID: 8516728438416791540, guid: edf658db354cb78b490d2f4c6c00e2bf, type: 3}
+  spriteGrowing: {fileID: -6868186729200979011, guid: 2eb734d65437c7b0e867a59535569f2d, type: 3}
+  spriteReady: {fileID: -4622363148119910722, guid: 5888314a9112d1c4290c976c376f3bfd, type: 3}
+  timeToGrow: 15
+  timeToMature: 10
+  Sound: {fileID: 8300000, guid: 8708b7483e43588b09faa1e4c34762aa, type: 3}
+  value: 200
+  PrduceName: Mark
+  numberOfProduce: 1
+  produceSprite: {fileID: -7285403338413965180, guid: 19732e8b0d2f75f49af69fc786ca1cd7, type: 3}
+  seedSprite: {fileID: 21300000, guid: 97691bc870fc52142b2712001fc95b23, type: 3}
+  firstIng: B
+  secondIng: B
