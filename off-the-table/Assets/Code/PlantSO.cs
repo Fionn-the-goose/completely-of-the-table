@@ -16,6 +16,7 @@ public class PlantSO : ScriptableObject
     public int numberOfProduce;
     public Sprite produceSprite;
     [Header("Combination infos")]
+    public Sprite seedSprite;
     public string firstIng;
     public string secondIng;
 }

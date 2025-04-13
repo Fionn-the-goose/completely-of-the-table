@@ -6,24 +6,36 @@ public class MixIng : MonoBehaviour {
 
     [SerializeField] private GameObject defaultSeedling;
     [SerializeField] private List<PlantSO> allPossibillitys;
+    [SerializeField] private Transform outputLocation;
     private string firstComponent = "";
     private string secondComponent = "";
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.gameObject.GetComponent<Ingredient>()){
-            if(firstComponent != ""){
+            if(firstComponent == ""){
                 firstComponent = other.gameObject.GetComponent<Ingredient>().name_;
+                Destroy(other.gameObject);
             }
-            else if(secondComponent != ""){
+            else if(secondComponent == ""){
                 secondComponent = other.gameObject.GetComponent<Ingredient>().name_;
-                
+                Destroy(other.gameObject);
+                DetermineType();
             }
         }
     }
     private void DetermineType(){
+        Debug.Log($"start determinig process");
         foreach(PlantSO plant in allPossibillitys){
-            if(firstComponent==plant.firstIng&&secondComponent==plant.secondIng){
-
+            Debug.Log($"try: " + plant.name + "\n names:" + firstComponent + secondComponent + plant.firstIng + plant.secondIng);
+            if((firstComponent==plant.firstIng&&secondComponent==plant.secondIng)||(firstComponent==plant.secondIng&&secondComponent==plant.firstIng)){
+                Debug.Log($"ZielGefunden!!!!");
+                GameObject newBorn = Instantiate(defaultSeedling, outputLocation);
+                Sapling seed = newBorn.GetComponent<Sapling>();
+                seed.setPlantType(plant);
+                seed.SwapVisuals(plant.seedSprite);
+                firstComponent = "";
+                secondComponent = "";
+                break;
             }
         }
     }

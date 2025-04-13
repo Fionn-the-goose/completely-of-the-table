@@ -39,6 +39,7 @@ public class Item : MonoBehaviour  {
         return Camera.main.ScreenToWorldPoint(Input.mousePosition);
     }
     public void SwapVisuals(Sprite sprite){
+        if(sprite != null)
         visuals.sprite = sprite;
     }
     
