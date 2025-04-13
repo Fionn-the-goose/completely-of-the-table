@@ -10,6 +10,7 @@ public class PlantPot : MonoBehaviour
     private bool readyToGrow;
     private bool readyToMature;
     [SerializeField] private SpriteRenderer plantVisuals;
+    [SerializeField] private AudioClip growSound;
     [SerializeField] private GameObject prodPrefab;
     [SerializeField] private bool accillerateGroth = true;
     [SerializeField] private Transform produceOutput;
