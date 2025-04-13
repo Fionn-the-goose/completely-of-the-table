@@ -11,6 +11,7 @@ public class Item : MonoBehaviour  {
     protected bool dragging;
     private Vector2 offset, original_pos;
     private SpriteRenderer visuals;
+    protected Rigidbody2D rigidbody_;
 
     void Awake() {
         original_pos = transform.position;
@@ -22,14 +23,14 @@ public class Item : MonoBehaviour  {
         var mousepos = GetMousePos();
         transform.position = mousepos - offset;
     }
-    void OnMouseDown(){
+    public virtual void OnMouseDown(){
         dragging = true;
         offset = GetMousePos() - (Vector2)transform.position;
         _audioSource.PlayOneShot(pickup_sound);
         GetComponent<Rigidbody2D>().gravityScale=0;
     }
 
-    void OnMouseUp(){
+    public virtual void OnMouseUp(){
         //transform.position = original_pos;
         dragging = false;
         _audioSource.PlayOneShot(dropdown_sound);
