@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Knochenmark_produce_0: -7285403338413965180
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
