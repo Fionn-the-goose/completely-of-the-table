@@ -21,7 +21,7 @@ public class PlantPot : MonoBehaviour
         plantVisuals.sprite = null;
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnCollisionEnterp2D(Collision2D collision)
     {
         //Debug.Log($"There is something: " + collision.gameObject.name);
         if(collision.gameObject.GetComponent<Sapling>()!=null && !isBlocked){
@@ -69,6 +69,7 @@ public class PlantPot : MonoBehaviour
                 GameObject prod = Instantiate(prodPrefab ,produceOutput.position, Quaternion.identity);
                 Produce bauntifull_harvest = prod.GetComponent<Produce>();
                 bauntifull_harvest.value = plantInfo.value;
+                bauntifull_harvest._name = plantInfo.PrduceName;
                 bauntifull_harvest.SwapVisuals(plantInfo.produceSprite);
                 Debug.Log($"havest successfull");
             }

@@ -13,6 +13,7 @@ public class PlantSO : ScriptableObject
     public AudioClip Sound;
     [Header("produce infos")]
     public int value;
+    public string PrduceName;
     public int numberOfProduce;
     public Sprite produceSprite;
     [Header("Combination infos")]
