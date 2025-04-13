@@ -564,12 +564,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   can_teleport:
-  - 
-  - 
-  - 
-  destination: {fileID: 0}
-  is_destination: 0
-  ing_spawn: {fileID: 0}
+  - Feuer
+  - Mensch
+  - Kaktus
+  - Reh
+  - Zahn
+  destination: {fileID: 5452765038194336506}
 --- !u!1 &4531478517334341703
 GameObject:
   m_ObjectHideFlags: 0

@@ -19,6 +19,7 @@ MonoBehaviour:
   timeToMature: 15
   Sound: {fileID: 8300000, guid: 5c5f8a2f4041ce174a686d258aabcbb6, type: 3}
   value: 20
+  PrduceName: Feuer
   numberOfProduce: 8
   produceSprite: {fileID: 5216783437536641047, guid: 5a32fa573444e7069b4949b69ac5e821, type: 3}
   seedSprite: {fileID: -8736223462352128663, guid: 89cad44e306d02b41bf63f83b6225e39, type: 3}

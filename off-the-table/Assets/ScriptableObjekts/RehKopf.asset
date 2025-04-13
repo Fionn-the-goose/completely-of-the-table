@@ -19,6 +19,7 @@ MonoBehaviour:
   timeToMature: 2
   Sound: {fileID: 8300000, guid: 2ec9e705a9fa18c72a8ec8c1e7570c66, type: 3}
   value: 250
+  PrduceName: Reh
   numberOfProduce: 1
   produceSprite: {fileID: 4526934532787529931, guid: f1869f8ab058f4d8fa26d72f7774ecf9, type: 3}
   seedSprite: {fileID: 2715636828791769911, guid: 97902e80e5c0b484a968669194196bcd, type: 3}

@@ -19,6 +19,7 @@ MonoBehaviour:
   timeToMature: 10
   Sound: {fileID: 8300000, guid: a8b911a0d9207c41d8d450a45608536d, type: 3}
   value: 60
+  PrduceName: Mensch
   numberOfProduce: 3
   produceSprite: {fileID: 5216783437536641047, guid: 5a32fa573444e7069b4949b69ac5e821, type: 3}
   seedSprite: {fileID: 21300000, guid: 97691bc870fc52142b2712001fc95b23, type: 3}

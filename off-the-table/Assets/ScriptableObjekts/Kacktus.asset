@@ -19,6 +19,7 @@ MonoBehaviour:
   timeToMature: 20
   Sound: {fileID: 8300000, guid: 2ec9e705a9fa18c72a8ec8c1e7570c66, type: 3}
   value: 12
+  PrduceName: Kaktus
   numberOfProduce: 3
   produceSprite: {fileID: -5593779123336501297, guid: b9547fb87513726738099eefaf66ec86, type: 3}
   seedSprite: {fileID: -5375034617425366545, guid: 139fe88e54eccad46adbc06697aca51d, type: 3}
