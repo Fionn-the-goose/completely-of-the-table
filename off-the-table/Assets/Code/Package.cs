@@ -1,3 +1,5 @@
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,13 +10,15 @@ public class Package : Item {
     private bool box_sent = false;
     [SerializeField] Transform box_pos;
     public int box_speed;
+    private int clicked = 0;
+    private float time = 0;
+    private float delay = 0.3f;
 
     void OnCollisionEnter2D(Collision2D collision) {
         if(collision.gameObject.GetComponent<Ingredient>()){
             Debug.Log(collision.gameObject.GetComponent<Ingredient>().name_);
-            GameObject tmp = collision.gameObject;
-            ings.Add(tmp);
-            Destroy(collision.gameObject);
+            ings.Add(collision.gameObject);
+            collision.gameObject.SetActive(false);
         }
 
     }
@@ -25,6 +29,32 @@ public class Package : Item {
         if(box_sent == true){
             transform.position = Vector3.MoveTowards(transform.position, box_pos.position, box_speed*Time.deltaTime);
         }
+        
+        if(Input.GetMouseButtonUp(0)){
+            Debug.Log("clicked");
+            clicked+=1;
+        }
+         if (clicked == 1){
+            Debug.Log("1");
+            time = Time.time;
+        } 
+        if (clicked == 2 && Time.time - time < (delay - 0.5f)){
+            Debug.Log("2");
+        }
+        if (clicked > 2 && Time.time - time < delay){
+            clicked = 0;
+            time = 0;
+            foreach(GameObject item in ings){
+                item.transform.position = transform.position;
+                item.SetActive(true);
+            }
+            StartCoroutine(Open_Box(0.3f));
+        }
+        else if (clicked > 3 || Math.Abs(Time.time - time) > delay ){
+            clicked = 0;
+        } 
+        
+
         
     }
     void OnTriggerEnter2D(Collider2D collision)
@@ -38,6 +68,17 @@ public class Package : Item {
 
     public void sendBox(){
         box_sent = true;
+    }
+    IEnumerator Open_Box(float waitTime)
+    {
+        
+        
+        yield return new WaitForSeconds(waitTime);
+        Debug.Log("destroy");
+        this.gameObject.SetActive(false);
+        
+    
+        
     }
 
 }

@@ -183,4 +183,6 @@ MonoBehaviour:
   destination: {fileID: 0}
   packing: {fileID: 0}
   box_pos: {fileID: 0}
-  box_speed: 0
+  box_speed: 2
+  one_click: {fileID: 3906855582498126369, guid: e85b2d51efd5b2f488d7b0054468155f, type: 3}
+  two_click: {fileID: -5593779123336501297, guid: b9547fb87513726738099eefaf66ec86, type: 3}
