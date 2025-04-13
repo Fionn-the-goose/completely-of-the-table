@@ -8,12 +8,14 @@ public class Ingredient : Item {
     [SerializeField] private Transform depositSpot;
     public string name_;
     public bool isShopVarient=false;
+    public AudioClip buy;
 
 
     private void Start()
     {
         rigidbody_ = GetComponent<Rigidbody2D>();
         if(isShopVarient){
+            this.dropdown_sound = buy;
             rigidbody_.bodyType = RigidbodyType2D.Kinematic;
         }
         else{

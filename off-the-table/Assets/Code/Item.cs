@@ -6,7 +6,7 @@ using UnityEngine.UIElements;
 public class Item : MonoBehaviour  {
     [SerializeField] private AudioSource _audioSource;
     [SerializeField] private AudioClip pickup_sound;
-    [SerializeField] private AudioClip dropdown_sound;
+    [SerializeField] public AudioClip dropdown_sound;
     public string _name;
     protected bool dragging;
     private Vector2 offset, original_pos;
