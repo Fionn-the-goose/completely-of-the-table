@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class Package : Item {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -13,12 +14,21 @@ public class Package : Item {
     private int clicked = 0;
     private float time = 0;
     private float delay = 0.3f;
+    [SerializeField] private bool can_open = false;
+
+    private TeleportItem tele;
 
     void OnCollisionEnter2D(Collision2D collision) {
         if(collision.gameObject.GetComponent<Ingredient>()){
-            Debug.Log(collision.gameObject.GetComponent<Ingredient>().name_);
-            ings.Add(collision.gameObject);
-            collision.gameObject.SetActive(false);
+            if(collision.gameObject.GetComponent<Ingredient>().isShopVarient == false){
+                Debug.Log(collision.gameObject.GetComponent<Ingredient>().name_);
+                ings.Add(collision.gameObject);
+                if(can_open == false){
+                    collision.gameObject.SetActive(false);
+                }
+                
+            }
+            
         }
 
     }
@@ -41,13 +51,10 @@ public class Package : Item {
         if (clicked == 2 && Time.time - time < (delay - 0.5f)){
             Debug.Log("2");
         }
-        if (clicked > 2 && Time.time - time < delay){
+        if (clicked > 2 && Time.time - time < delay && can_open == true){
             clicked = 0;
             time = 0;
-            foreach(GameObject item in ings){
-                item.transform.position = transform.position;
-                item.SetActive(true);
-            }
+            tele.CanUnlockItems(true);
             StartCoroutine(Open_Box(0.3f));
         }
         else if (clicked > 3 || Math.Abs(Time.time - time) > delay ){
@@ -61,23 +68,27 @@ public class Package : Item {
     {
         if(collision.gameObject.GetComponent<TeleportItem>() != null){
             if(collision.gameObject.GetComponent<TeleportItem>().is_destination == true){
+                tele = collision.gameObject.GetComponent<TeleportItem>();
                 box_sent = false;
             }
         }
     }
 
+    public List<GameObject> GetList(){
+        return ings;
+    }
+    public void SetCanOpen(bool canopen){
+        can_open = canopen;
+    }
+
     public void sendBox(){
         box_sent = true;
     }
-    IEnumerator Open_Box(float waitTime)
-    {
-        
+    IEnumerator Open_Box(float waitTime) {
         
         yield return new WaitForSeconds(waitTime);
         Debug.Log("destroy");
-        this.gameObject.SetActive(false);
-        
-    
+        gameObject.SetActive(false);
         
     }
 

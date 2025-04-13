@@ -501,6 +501,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Damping: 0
+--- !u!4 &480130223 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7453308217068875672, guid: 348da7d078c20915cb77a437ac232aae, type: 3}
+  m_PrefabInstance: {fileID: 3818833221243258109}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2339,6 +2344,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7272390788554807294, guid: 348da7d078c20915cb77a437ac232aae, type: 3}
+      propertyPath: ing_spawn
+      value: 
+      objectReference: {fileID: 480130223}
     - target: {fileID: 7423766662353217615, guid: 348da7d078c20915cb77a437ac232aae, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.07
