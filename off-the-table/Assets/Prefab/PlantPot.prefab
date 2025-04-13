@@ -33,6 +33,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1512206456300669416}
+  - {fileID: 3487668259814478190}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5834484174576596875
@@ -104,6 +105,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   plantVisuals: {fileID: 4797064004366731994}
   prodPrefab: {fileID: 2704482492000565754, guid: 2901ae4da02cb1dedb075366ef773ecd, type: 3}
+  accillerateGroth: 1
+  produceOutput: {fileID: 3487668259814478190}
 --- !u!61 &7505110800004085610
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -150,6 +153,37 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1128545942502561383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3487668259814478190}
+  m_Layer: 0
+  m_Name: produceDeposit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3487668259814478190
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128545942502561383}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.08660674, y: 2.02, z: -9.511084}
+  m_LocalScale: {x: 0.5, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4616550789399194647}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8297852061533125703
 GameObject:
   m_ObjectHideFlags: 0

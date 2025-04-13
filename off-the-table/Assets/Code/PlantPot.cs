@@ -12,6 +12,7 @@ public class PlantPot : MonoBehaviour
     [SerializeField] private SpriteRenderer plantVisuals;
     [SerializeField] private GameObject prodPrefab;
     [SerializeField] private bool accillerateGroth = true;
+    [SerializeField] private Transform produceOutput;
     void Start()
     {
         plantVisuals.sprite = null;
@@ -30,11 +31,18 @@ public class PlantPot : MonoBehaviour
         
         plantVisuals.sprite = plantInfo.spriteSappling;
         if(accillerateGroth){
-            yield return new WaitForSeconds(plantInfo.timeToGrow*10);
+            yield return new WaitForSeconds(plantInfo.timeToGrow/10);
         }
-        yield return new WaitForSeconds(plantInfo.timeToGrow);
+        else{
+            yield return new WaitForSeconds(plantInfo.timeToGrow);
+        }
         plantVisuals.sprite = plantInfo.spriteGrowing;
-        yield return new WaitForSeconds(plantInfo.timeToMature);
+        if(accillerateGroth){
+            yield return new WaitForSeconds(plantInfo.timeToMature/10);
+        }
+        else{
+            yield return new WaitForSeconds(plantInfo.timeToMature);
+        }
         plantVisuals.sprite = plantInfo.spriteReady;
         canYealdProduce = true;
     }
@@ -43,7 +51,7 @@ public class PlantPot : MonoBehaviour
         if(canYealdProduce){
             Debug.Log($"initiate harvest");
             for(int i = 1; i <= plantInfo.numberOfProduce; i++){   
-                GameObject prod = Instantiate(prodPrefab ,transform.position,Quaternion.identity);
+                GameObject prod = Instantiate(prodPrefab ,produceOutput.position, Quaternion.identity);
                 Produce bauntifull_harvest = prod.GetComponent<Produce>();
                 bauntifull_harvest.value = plantInfo.value;
                 bauntifull_harvest.SwapVisuals(plantInfo.produceSprite);

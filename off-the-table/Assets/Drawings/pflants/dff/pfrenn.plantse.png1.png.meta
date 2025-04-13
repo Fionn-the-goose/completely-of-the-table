@@ -106,28 +106,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pfrenn.plantse.png1_0
-      rect:
-        serializedVersion: 2
-        x: 99
-        y: 194
-        width: 11
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: af1aa541e7fbd6000800000000000000
-      internalID: 30891320689730042
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: pfrenn.plantse.png1_1
       rect:
         serializedVersion: 2
@@ -135,8 +113,8 @@ TextureImporter:
         y: 45
         width: 73
         height: 177
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -149,33 +127,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: pfrenn.plantse.png1_2
-      rect:
-        serializedVersion: 2
-        x: 110
-        y: 196
-        width: 8
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c18ecb1329c6f9be0800000000000000
-      internalID: -1468335578344003556
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0e04445602cbeae6bb42e47d1d971567
     internalID: 0
     vertices: []
     indices: 

@@ -106,28 +106,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: milly_0
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 303
-        width: 6
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 56db31d2e43f18eb0800000000000000
-      internalID: -4719223417418302107
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: milly_1
       rect:
         serializedVersion: 2
@@ -135,8 +113,8 @@ TextureImporter:
         y: 42
         width: 201
         height: 466
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -145,28 +123,6 @@ TextureImporter:
       bones: []
       spriteID: 9602d9965d862eb80800000000000000
       internalID: -8367009891891732375
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: milly_2
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 41
-        width: 23
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2940c0819eb258fa0800000000000000
-      internalID: -5799180665038830446
       vertices: []
       indices: 
       edges: []

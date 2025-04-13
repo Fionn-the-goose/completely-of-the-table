@@ -637,6 +637,8 @@ MonoBehaviour:
   pickup_sound: {fileID: 0}
   dropdown_sound: {fileID: 0}
   _name: water_can
+  teleport: {fileID: 0}
+  destination: {fileID: 0}
   particleSystem: {fileID: 0}
 --- !u!1 &6141476829639585573
 GameObject:
@@ -817,6 +819,8 @@ MonoBehaviour:
   pickup_sound: {fileID: 0}
   dropdown_sound: {fileID: 0}
   _name: 
+  teleport: {fileID: 0}
+  destination: {fileID: 0}
 --- !u!1 &6164454192206462303
 GameObject:
   m_ObjectHideFlags: 0

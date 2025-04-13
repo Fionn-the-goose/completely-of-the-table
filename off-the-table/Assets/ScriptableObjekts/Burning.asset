@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dbf6a64c5689fa59a6326736ab97d92, type: 3}
   m_Name: Burning
   m_EditorClassIdentifier: 
-  spriteSappling: {fileID: 30891320689730042, guid: 8c9c16fa2f716c9a1ac48e39cb4bd058, type: 3}
+  spriteSappling: {fileID: -1594243576194790157, guid: 8c9c16fa2f716c9a1ac48e39cb4bd058, type: 3}
   spriteGrowing: {fileID: 2925536591434213895, guid: c52038429b8f36db0b0293c6f51d9748, type: 3}
   spriteReady: {fileID: -4430064078961346087, guid: e62b4d8bdf330da17b8ad4fb8a564f5f, type: 3}
   timeToGrow: 10

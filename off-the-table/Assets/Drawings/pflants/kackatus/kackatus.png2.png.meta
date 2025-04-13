@@ -103,12 +103,12 @@ TextureImporter:
       name: kackatus.png2_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 5
-        width: 240
-        height: 503
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 9
+        y: 35
+        width: 241
+        height: 471
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0e2bd4a262989c0ce87b37d1c68d1b6e
     internalID: 0
     vertices: []
     indices: 
