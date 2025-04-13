@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pilz_Sporen_0: 3005873682714136763
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
