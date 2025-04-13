@@ -48,6 +48,7 @@ MonoBehaviour:
   can_teleport: []
   destination: {fileID: 0}
   is_destination: 1
+  ing_spawn: {fileID: 0}
 --- !u!61 &3701323768084823839
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -410,6 +411,7 @@ MonoBehaviour:
   - Box
   destination: {fileID: 7453308217068875672}
   is_destination: 0
+  ing_spawn: {fileID: 0}
 --- !u!1 &8761686786642255816
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,6 +607,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8170698530763943888}
     - target: {fileID: 1225764628738539449, guid: ea83d43793368b847a6a169bc3421f3b, type: 3}
+      propertyPath: can_open
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1225764628738539449, guid: ea83d43793368b847a6a169bc3421f3b, type: 3}
       propertyPath: teleport
       value: 
       objectReference: {fileID: 8170698530763943888}
@@ -622,11 +628,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8419151060100148928, guid: ea83d43793368b847a6a169bc3421f3b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.57
+      value: -4.73
       objectReference: {fileID: 0}
     - target: {fileID: 8419151060100148928, guid: ea83d43793368b847a6a169bc3421f3b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.03
+      value: -1.43
       objectReference: {fileID: 0}
     - target: {fileID: 8419151060100148928, guid: ea83d43793368b847a6a169bc3421f3b, type: 3}
       propertyPath: m_LocalPosition.z
