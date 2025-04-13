@@ -22,11 +22,17 @@ public class Package : Item {
     void Update()
     {
         base.Update();
-        if(box_sent == true && transform.position != box_pos.position){
+        if(box_sent == true){
             transform.position = Vector3.MoveTowards(transform.position, box_pos.position, box_speed*Time.deltaTime);
         }
-        if(box_sent == true && transform.position == box_pos.position){
-            box_sent = false;
+        
+    }
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.GetComponent<TeleportItem>() != null){
+            if(collision.gameObject.GetComponent<TeleportItem>().is_destination == true){
+                box_sent = false;
+            }
         }
     }
 

@@ -12,7 +12,8 @@ public class Item : MonoBehaviour  {
     private Vector2 offset, original_pos;
     private SpriteRenderer visuals;
     protected Rigidbody2D rigidbody_;
-
+    [SerializeField] private Transform teleport;
+    [SerializeField] private Transform destination;
     void Awake() {
         original_pos = transform.position;
         visuals = GetComponent<SpriteRenderer>();
@@ -43,6 +44,7 @@ public class Item : MonoBehaviour  {
         if(sprite != null)
         visuals.sprite = sprite;
     }
+
 
     
 }

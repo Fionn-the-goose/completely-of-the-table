@@ -175,3 +175,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5bd7335e5e6da94a80bd4953a840b53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _audioSource: {fileID: 0}
+  pickup_sound: {fileID: 0}
+  dropdown_sound: {fileID: 0}
+  _name: Box
+  teleport: {fileID: 0}
+  destination: {fileID: 0}
+  packing: {fileID: 0}
+  box_pos: {fileID: 0}
+  box_speed: 0

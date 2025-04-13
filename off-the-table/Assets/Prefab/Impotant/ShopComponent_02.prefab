@@ -178,9 +178,11 @@ MonoBehaviour:
   _audioSource: {fileID: 0}
   pickup_sound: {fileID: 0}
   dropdown_sound: {fileID: 0}
-  _name: 
+  _name: B
+  teleport: {fileID: 0}
+  destination: {fileID: 0}
   price: 2
   wallet: {fileID: 11400000, guid: afb6c41c11fab1a4e8b030165b589ce3, type: 2}
   depositSpot: {fileID: 0}
-  name_: ing2
+  name_: B
   isShopVarient: 1
