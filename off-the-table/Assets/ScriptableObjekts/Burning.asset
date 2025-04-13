@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2dbf6a64c5689fa59a6326736ab97d92, type: 3}
-  m_Name: RehKopf
+  m_Name: Burning
   m_EditorClassIdentifier: 
-  spriteSappling: {fileID: 8678411924478097390, guid: b4d551d8172921e57ba8ef2fbcebabee, type: 3}
-  spriteGrowing: {fileID: -3363117956642720405, guid: 2595269c51bd92305b4428508aee5fe3, type: 3}
-  spriteReady: {fileID: 1824088542975676714, guid: de88685eb361a38a5ac4e8fb2157f9e2, type: 3}
-  timeToGrow: 2
-  timeToMature: 2
+  spriteSappling: {fileID: 30891320689730042, guid: 8c9c16fa2f716c9a1ac48e39cb4bd058, type: 3}
+  spriteGrowing: {fileID: 2925536591434213895, guid: c52038429b8f36db0b0293c6f51d9748, type: 3}
+  spriteReady: {fileID: -4430064078961346087, guid: e62b4d8bdf330da17b8ad4fb8a564f5f, type: 3}
+  timeToGrow: 10
+  timeToMature: 15
   Sound: {fileID: 0}
-  value: 250
-  numberOfProduce: 1
-  produceSprite: {fileID: 4526934532787529931, guid: f1869f8ab058f4d8fa26d72f7774ecf9, type: 3}
+  value: 20
+  numberOfProduce: 8
+  produceSprite: {fileID: 5216783437536641047, guid: 5a32fa573444e7069b4949b69ac5e821, type: 3}
   seedSprite: {fileID: -5593779123336501297, guid: b9547fb87513726738099eefaf66ec86, type: 3}
   firstIng: C
-  secondIng: B
+  secondIng: C

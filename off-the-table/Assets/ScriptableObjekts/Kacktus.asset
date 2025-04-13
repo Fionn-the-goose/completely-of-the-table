@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2dbf6a64c5689fa59a6326736ab97d92, type: 3}
-  m_Name: ToothPlant
+  m_Name: Kacktus
   m_EditorClassIdentifier: 
-  spriteSappling: {fileID: -8761825896554439082, guid: 08da404a02076de1db2d6f13e979c225, type: 3}
-  spriteGrowing: {fileID: -6632945044531500141, guid: 6f855c3ded56f3e7e953dd9fc9ddb7fc, type: 3}
-  spriteReady: {fileID: -8058893481341008243, guid: 456ef1e7189a42f99a6ee38d722c8a52, type: 3}
-  timeToGrow: 2
-  timeToMature: 2
+  spriteSappling: {fileID: 5781175249468801161, guid: 5b5113589fa64539cab3c58a19bd007b, type: 3}
+  spriteGrowing: {fileID: -6320242838400795142, guid: 97ce19ab07a52aa83939863cc3405027, type: 3}
+  spriteReady: {fileID: -7999304799154200523, guid: 12cd2c7437f7b2fde8b98585dd056220, type: 3}
+  timeToGrow: 5
+  timeToMature: 20
   Sound: {fileID: 0}
-  value: 1
-  numberOfProduce: 10
+  value: 12
+  numberOfProduce: 3
   produceSprite: {fileID: -5593779123336501297, guid: b9547fb87513726738099eefaf66ec86, type: 3}
-  seedSprite: {fileID: 4526934532787529931, guid: f1869f8ab058f4d8fa26d72f7774ecf9, type: 3}
+  seedSprite: {fileID: 5216783437536641047, guid: 5a32fa573444e7069b4949b69ac5e821, type: 3}
   firstIng: A
-  secondIng: A
+  secondIng: B

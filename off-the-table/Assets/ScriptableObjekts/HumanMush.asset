@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2dbf6a64c5689fa59a6326736ab97d92, type: 3}
-  m_Name: ToothPlant
+  m_Name: HumanMush
   m_EditorClassIdentifier: 
-  spriteSappling: {fileID: -8761825896554439082, guid: 08da404a02076de1db2d6f13e979c225, type: 3}
-  spriteGrowing: {fileID: -6632945044531500141, guid: 6f855c3ded56f3e7e953dd9fc9ddb7fc, type: 3}
-  spriteReady: {fileID: -8058893481341008243, guid: 456ef1e7189a42f99a6ee38d722c8a52, type: 3}
-  timeToGrow: 2
-  timeToMature: 2
+  spriteSappling: {fileID: -7922027922222862927, guid: a748d5d0f54b868ca8445a511fdfe83f, type: 3}
+  spriteGrowing: {fileID: 1739799758743500549, guid: ea9c1121ffd465f9b8fcce0a29fc9042, type: 3}
+  spriteReady: {fileID: -4719223417418302107, guid: 0f582a6f4858e36788e7a93397965058, type: 3}
+  timeToGrow: 14
+  timeToMature: 10
   Sound: {fileID: 0}
-  value: 1
-  numberOfProduce: 10
-  produceSprite: {fileID: -5593779123336501297, guid: b9547fb87513726738099eefaf66ec86, type: 3}
+  value: 3
+  numberOfProduce: 60
+  produceSprite: {fileID: 5216783437536641047, guid: 5a32fa573444e7069b4949b69ac5e821, type: 3}
   seedSprite: {fileID: 4526934532787529931, guid: f1869f8ab058f4d8fa26d72f7774ecf9, type: 3}
   firstIng: A
-  secondIng: A
+  secondIng: C

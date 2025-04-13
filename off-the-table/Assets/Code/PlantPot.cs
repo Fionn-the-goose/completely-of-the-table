@@ -7,8 +7,11 @@ public class PlantPot : MonoBehaviour
     private PlantSO plantInfo;
     private bool isBlocked;
     private bool canYealdProduce;
+    private bool readyToGrow;
+    private bool readyToMature;
     [SerializeField] private SpriteRenderer plantVisuals;
     [SerializeField] private GameObject prodPrefab;
+    [SerializeField] private bool accillerateGroth = true;
     void Start()
     {
         plantVisuals.sprite = null;
@@ -26,6 +29,9 @@ public class PlantPot : MonoBehaviour
     public IEnumerator GrowCoroutine(){
         
         plantVisuals.sprite = plantInfo.spriteSappling;
+        if(accillerateGroth){
+            yield return new WaitForSeconds(plantInfo.timeToGrow*10);
+        }
         yield return new WaitForSeconds(plantInfo.timeToGrow);
         plantVisuals.sprite = plantInfo.spriteGrowing;
         yield return new WaitForSeconds(plantInfo.timeToMature);
