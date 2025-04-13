@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b25bec43a57fbad448b4c256844176a3
+guid: 6a45987a3acb393fbabc6be0c734b91f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2649088887278023524
-    second: Plant_pod_0
+      213: -608059225218465721
+    second: Fahrstuhl_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Plant_pod_0
+      name: Fahrstuhl_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 30
-        width: 163
-        height: 45
+        x: 40
+        y: 31
+        width: 218
+        height: 162
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c9ccb5741bb8c3bd0800000000000000
-      internalID: -2649088887278023524
+      spriteID: 74044763b5dbf87f0800000000000000
+      internalID: -608059225218465721
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Plant_pod_0: -2649088887278023524
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
