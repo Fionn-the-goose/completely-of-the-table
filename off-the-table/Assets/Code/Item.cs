@@ -44,7 +44,4 @@ public class Item : MonoBehaviour  {
         if(sprite != null)
         visuals.sprite = sprite;
     }
-
-
-    
 }
