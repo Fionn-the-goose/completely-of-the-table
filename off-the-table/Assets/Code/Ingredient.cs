@@ -15,7 +15,7 @@ public class Ingredient : Item {
     {
         rigidbody_ = GetComponent<Rigidbody2D>();
         if(isShopVarient){
-            this.dropdown_sound = buy;
+            
             rigidbody_.bodyType = RigidbodyType2D.Kinematic;
         }
         else{
@@ -26,6 +26,7 @@ public class Ingredient : Item {
     public override void OnMouseDown()
     {
         if(isShopVarient){
+            GetComponent<AudioSource>().PlayOneShot(pickup_sound);
         }
         else{
             base.OnMouseDown();
@@ -40,6 +41,7 @@ public class Ingredient : Item {
                 Ingredient freshComponenet = ingCopy.GetComponent<Ingredient>();
                 freshComponenet.isShopVarient = false;
                 ingCopy.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+                GetComponent<AudioSource>().PlayOneShot(buy);
             }
             else{
                 Debug.Log($"To expensive for you Idiot");
