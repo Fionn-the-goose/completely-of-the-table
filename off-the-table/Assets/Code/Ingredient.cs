@@ -34,7 +34,7 @@ public class Ingredient : Item {
         if(isShopVarient){
             if(price <= wallet.money){
                 wallet.money = wallet.money - price;
-                GameObject ingCopy = Instantiate(this.gameObject, depositSpot);
+                GameObject ingCopy = Instantiate(this.gameObject, depositSpot.position, Quaternion.identity);
                 Ingredient freshComponenet = ingCopy.GetComponent<Ingredient>();
                 freshComponenet.isShopVarient = false;
                 ingCopy.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
