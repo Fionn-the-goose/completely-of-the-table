@@ -17,7 +17,7 @@ MonoBehaviour:
   spriteReady: {fileID: -8058893481341008243, guid: 456ef1e7189a42f99a6ee38d722c8a52, type: 3}
   timeToGrow: 2
   timeToMature: 2
-  Sound: {fileID: 0}
+  Sound: {fileID: 8300000, guid: 8708b7483e43588b09faa1e4c34762aa, type: 3}
   value: 1
   numberOfProduce: 10
   produceSprite: {fileID: -5593779123336501297, guid: b9547fb87513726738099eefaf66ec86, type: 3}
