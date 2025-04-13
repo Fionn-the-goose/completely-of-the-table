@@ -209,8 +209,6 @@ MonoBehaviour:
   can_teleport:
   - sap
   destination: {fileID: 237900328}
-  is_destination: 0
-  ing_spawn: {fileID: 0}
 --- !u!61 &236569723
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -281,8 +279,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   can_teleport: []
   destination: {fileID: 0}
-  is_destination: 1
-  ing_spawn: {fileID: 0}
 --- !u!61 &237900330
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1156,6 +1152,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1839452722010664954, guid: c9060f2dac079bc618b79c7dcd3b07c9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3370820116572895333, guid: d75258ca83ca14047b531616d19da1d0, type: 3}
     - target: {fileID: 5605662631859461207, guid: c9060f2dac079bc618b79c7dcd3b07c9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 22.31
@@ -1202,6 +1202,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8131937714767266823, guid: c9060f2dac079bc618b79c7dcd3b07c9, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8451269288919427674, guid: c9060f2dac079bc618b79c7dcd3b07c9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 8451269288919427674, guid: c9060f2dac079bc618b79c7dcd3b07c9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 8451269288919427674, guid: c9060f2dac079bc618b79c7dcd3b07c9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 8451269288919427674, guid: c9060f2dac079bc618b79c7dcd3b07c9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 8451269288919427674, guid: c9060f2dac079bc618b79c7dcd3b07c9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 8451269288919427674, guid: c9060f2dac079bc618b79c7dcd3b07c9, type: 3}
+      propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

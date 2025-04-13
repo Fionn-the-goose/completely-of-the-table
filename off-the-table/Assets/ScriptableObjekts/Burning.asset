@@ -21,7 +21,7 @@ MonoBehaviour:
   value: 20
   PrduceName: Feuer
   numberOfProduce: 8
-  produceSprite: {fileID: 5216783437536641047, guid: 5a32fa573444e7069b4949b69ac5e821, type: 3}
+  produceSprite: {fileID: 2290022206506791675, guid: 1a5eb8dd76fe5094a80343df8e02bac7, type: 3}
   seedSprite: {fileID: -8736223462352128663, guid: 89cad44e306d02b41bf63f83b6225e39, type: 3}
   firstIng: C
   secondIng: C

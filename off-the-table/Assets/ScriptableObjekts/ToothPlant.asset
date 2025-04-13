@@ -21,7 +21,7 @@ MonoBehaviour:
   value: 1
   PrduceName: Zahn
   numberOfProduce: 10
-  produceSprite: {fileID: -5593779123336501297, guid: b9547fb87513726738099eefaf66ec86, type: 3}
+  produceSprite: {fileID: -2343694714133804837, guid: e7da90026e189a64ca1567c38e5cb565, type: 3}
   seedSprite: {fileID: 7457900853250070159, guid: 8c9f8f4cdf8718e49b02b464289328cc, type: 3}
   firstIng: A
   secondIng: A

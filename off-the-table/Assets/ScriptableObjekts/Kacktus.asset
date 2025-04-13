@@ -21,7 +21,7 @@ MonoBehaviour:
   value: 12
   PrduceName: Kaktus
   numberOfProduce: 3
-  produceSprite: {fileID: -5593779123336501297, guid: b9547fb87513726738099eefaf66ec86, type: 3}
+  produceSprite: {fileID: -7388621539439861002, guid: 3a00bd0e3afe7a641bc323a42e76e6de, type: 3}
   seedSprite: {fileID: -5375034617425366545, guid: 139fe88e54eccad46adbc06697aca51d, type: 3}
   firstIng: A
   secondIng: B
