@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1879615311271430318}
   - component: {fileID: 6260175675515444446}
   m_Layer: 0
-  m_Name: ShopComponent_01 2
+  m_Name: Spinne
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 2036000103
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3906855582498126369, guid: e85b2d51efd5b2f488d7b0054468155f, type: 3}
+  m_Sprite: {fileID: -4822621852456739877, guid: 76b4ac2509e894e4bb4cee7be1ecc75b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -128,7 +128,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.55, y: 1.9}
+    oldSize: {x: 2.48, y: 2.56}
     newSize: {x: 1.55, y: 1.9}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -175,14 +175,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6be01a94efe4394a839eedb5d7f8f71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioSource: {fileID: 0}
-  pickup_sound: {fileID: 0}
-  dropdown_sound: {fileID: 0}
-  _name: A
+  _audioSource: {fileID: -3039489438689964425, guid: fd8308642de0f964aa42b4a607bdfce4, type: 3}
+  pickup_sound: {fileID: 8300000, guid: 6b1f463ec4613bbc7a2ff35fd4d588bc, type: 3}
+  dropdown_sound: {fileID: 8300000, guid: 06de484c894005f3295af7faa0cfbf65, type: 3}
+  _name: D
   teleport: {fileID: 0}
   destination: {fileID: 0}
   price: 1
   wallet: {fileID: 11400000, guid: afb6c41c11fab1a4e8b030165b589ce3, type: 2}
   depositSpot: {fileID: 0}
-  name_: A
+  name_: D
   isShopVarient: 1
+  buy: {fileID: 8300000, guid: 7cc6f0ed63f025fce93575926a5c0b7a, type: 3}

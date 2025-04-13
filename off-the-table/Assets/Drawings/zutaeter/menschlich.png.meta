@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6a45987a3acb393fbabc6be0c734b91f
+guid: baf7a36c527693046af84c40cb4b82e6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -608059225218465721
-    second: Fahrstuhl_0
+      213: -4267811258053572180
+    second: menschlich_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fahrstuhl_0
+      name: menschlich_0
       rect:
         serializedVersion: 2
-        x: 40
-        y: 31
-        width: 218
-        height: 162
+        x: 23
+        y: 37
+        width: 223
+        height: 154
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 74044763b5dbf87f0800000000000000
-      internalID: -608059225218465721
+      spriteID: ca9cd4bc540b5c4c0800000000000000
+      internalID: -4267811258053572180
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Fahrstuhl_0: -608059225218465721
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

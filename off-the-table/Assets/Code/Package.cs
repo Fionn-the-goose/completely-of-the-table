@@ -18,16 +18,10 @@ public class Package : Item {
     private bool coroutineIsActive = false;
     //private float delay = 0.3f;
     [SerializeField] private bool can_open = false;
-    [SerializeField] private AudioClip clip_1;
-    [SerializeField] private AudioClip clip_2;
-    [SerializeField] private AudioClip clip_3;
-    private AudioSource source;
+    
 
     //private TeleportItem tele;
-    void Start()
-    {
-        
-    }
+
     public  void SetCanOpen(bool value) {
         can_open = value;
     }
