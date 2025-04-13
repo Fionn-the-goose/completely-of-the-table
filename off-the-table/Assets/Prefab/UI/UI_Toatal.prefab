@@ -67,7 +67,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5, y: -0}
+  m_AnchoredPosition: {x: 5.0000076, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1317903562552096471
@@ -182,6 +182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wallet: {fileID: 0}
+  textwindow: {fileID: 0}
 --- !u!1 &1759501857059151323
 GameObject:
   m_ObjectHideFlags: 0
@@ -720,11 +721,11 @@ RectTransform:
   - {fileID: 7469393477772240154}
   m_Father: {fileID: 59869288492329490}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -203, y: 128}
-  m_SizeDelta: {x: -432.12003, y: -288.99994}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 13.059998, y: -16.49997}
+  m_SizeDelta: {x: 139.6, y: 66.2}
+  m_Pivot: {x: 0, y: 1}
 --- !u!222 &5055153325885634799
 CanvasRenderer:
   m_ObjectHideFlags: 0

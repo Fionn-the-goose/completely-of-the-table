@@ -4,6 +4,30 @@ using UnityEngine;
 
 public class MixIng : MonoBehaviour {
 
+    [SerializeField] private GameObject defaultSeedling;
+    [SerializeField] private List<PlantSO> allPossibillitys;
+    private string firstComponent = "";
+    private string secondComponent = "";
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.GetComponent<Ingredient>()){
+            if(firstComponent != ""){
+                firstComponent = other.gameObject.GetComponent<Ingredient>().name_;
+            }
+            else if(secondComponent != ""){
+                secondComponent = other.gameObject.GetComponent<Ingredient>().name_;
+                
+            }
+        }
+    }
+    private void DetermineType(){
+        foreach(PlantSO plant in allPossibillitys){
+            if(firstComponent==plant.firstIng&&secondComponent==plant.secondIng){
+
+            }
+        }
+    }
+/*
     private string ing_A;
     private string ing_B;
     public List<PlantSO> plantList;
@@ -13,7 +37,6 @@ public class MixIng : MonoBehaviour {
     private bool second_item = false;
     PlantSO pee;
     void Update() {
-
         if(first_item == true && second_item == true){
             Debug.Log("Both true");
             if(item_created == false){
@@ -71,5 +94,5 @@ public class MixIng : MonoBehaviour {
             else Debug.Log("no plant found");
         }
     }
-
+*/
 }

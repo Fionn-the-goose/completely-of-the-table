@@ -1,7 +1,6 @@
 using UnityEngine;
 
-public class Ingediens : Item {
+public class Ingredient : Item {
     [SerializeField] private int price;
-
-
+    public string name_;
 }

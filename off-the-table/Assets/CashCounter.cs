@@ -9,6 +9,7 @@ public class CashCounter : MonoBehaviour
     void Start()
     {
         textwindow = this.GetComponent<TMP_Text>();
+        wallet.money = 5;
     }
     private void Update()
     {
