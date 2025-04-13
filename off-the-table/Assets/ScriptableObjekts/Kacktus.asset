@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteSappling: {fileID: 5781175249468801161, guid: 5b5113589fa64539cab3c58a19bd007b, type: 3}
   spriteGrowing: {fileID: -6320242838400795142, guid: 97ce19ab07a52aa83939863cc3405027, type: 3}
-  spriteReady: {fileID: -7999304799154200523, guid: 12cd2c7437f7b2fde8b98585dd056220, type: 3}
+  spriteReady: {fileID: 1131622482060470173, guid: 8dc05074adfe9618db9382922ad6729a, type: 3}
   timeToGrow: 5
   timeToMature: 20
   Sound: {fileID: 0}

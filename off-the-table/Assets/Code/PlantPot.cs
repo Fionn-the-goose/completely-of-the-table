@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class PlantPot : MonoBehaviour
@@ -9,8 +10,9 @@ public class PlantPot : MonoBehaviour
     private bool canYealdProduce;
     private bool readyToGrow;
     private bool readyToMature;
-    [SerializeField] private SpriteRenderer plantVisuals;
-    [SerializeField] private AudioClip growSound;
+    [SerializeField] private AudioSource growAudio;
+    [SerializeField] private AudioSource matureAudio;
+    [SerializeField] private SpriteRenderer plantVisuals;    
     [SerializeField] private GameObject prodPrefab;
     [SerializeField] private bool accillerateGroth = true;
     [SerializeField] private Transform produceOutput;
@@ -37,6 +39,7 @@ public class PlantPot : MonoBehaviour
         else{
             yield return new WaitForSeconds(plantInfo.timeToGrow);
         }
+        growAudio.Play();
         plantVisuals.sprite = plantInfo.spriteGrowing;
         if(accillerateGroth){
             yield return new WaitForSeconds(plantInfo.timeToMature/10);
@@ -44,12 +47,23 @@ public class PlantPot : MonoBehaviour
         else{
             yield return new WaitForSeconds(plantInfo.timeToMature);
         }
+        growAudio.Play(); 
         plantVisuals.sprite = plantInfo.spriteReady;
         canYealdProduce = true;
+        matureAudio.clip = plantInfo.Sound;
+        SoundRoutine();
+    }
+
+    public IEnumerator SoundRoutine(){
+        while(canYealdProduce){
+            matureAudio.Play();
+            yield return new WaitForSeconds(UnityEngine.Random.Range(2f, 8f))
+        }
     }
     public void HarvestPlant(){
         Debug.Log($"try initiate harvest");
         if(canYealdProduce){
+            matureAudio.Stop();
             Debug.Log($"initiate harvest");
             for(int i = 1; i <= plantInfo.numberOfProduce; i++){   
                 GameObject prod = Instantiate(prodPrefab ,produceOutput.position, Quaternion.identity);
