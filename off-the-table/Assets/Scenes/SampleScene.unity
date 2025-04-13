@@ -1569,6 +1569,10 @@ PrefabInstance:
       propertyPath: Target.TrackingTarget
       value: 
       objectReference: {fileID: 1154624697}
+    - target: {fileID: 1475086229585707095, guid: 1c49ccfccd4e2cfd7a01913f4fd4c5b2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1556474961632399934, guid: 1c49ccfccd4e2cfd7a01913f4fd4c5b2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 2
