@@ -57,7 +57,7 @@ public class PlantPot : MonoBehaviour
     public IEnumerator SoundRoutine(){
         while(canYealdProduce){
             matureAudio.Play();
-            yield return new WaitForSeconds(UnityEngine.Random.Range(2f, 8f))
+            yield return new WaitForSeconds(UnityEngine.Random.Range(2f, 8f));
         }
     }
     public void HarvestPlant(){
