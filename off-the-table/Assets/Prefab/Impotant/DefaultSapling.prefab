@@ -142,6 +142,8 @@ MonoBehaviour:
   pickup_sound: {fileID: 0}
   dropdown_sound: {fileID: 0}
   _name: 
+  teleport: {fileID: 0}
+  destination: {fileID: 0}
   plant: {fileID: 0}
 --- !u!50 &2043283691500266008
 Rigidbody2D:

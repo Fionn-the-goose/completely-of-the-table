@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 9195213006844cdb6a339a50a602271c
+guid: 1437c03f68758b840a98599b6bad82e9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6943196687686493931
-    second: kackatus1_0
-  - first:
-      213: -2379318077051095011
-    second: kackatus1_1
+      213: 3005873682714136763
+    second: Pilz_Sporen_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: kackatus1_0
+      name: Pilz_Sporen_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 20
-        width: 228
-        height: 243
+        x: 2
+        y: 8
+        width: 121
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 51917c0366fc4af90800000000000000
-      internalID: -6943196687686493931
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kackatus1_1
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 236
-        width: 29
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d1834b9a0d6fafed0800000000000000
-      internalID: -2379318077051095011
+      spriteID: bb01fd9403207b920800000000000000
+      internalID: 3005873682714136763
       vertices: []
       indices: 
       edges: []
@@ -159,9 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      kackatus1_0: -6943196687686493931
-      kackatus1_1: -2379318077051095011
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

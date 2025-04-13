@@ -106,6 +106,8 @@ MonoBehaviour:
   pickup_sound: {fileID: 0}
   dropdown_sound: {fileID: 0}
   _name: 
+  teleport: {fileID: 0}
+  destination: {fileID: 0}
   value: 0
 --- !u!58 &4632800013687997737
 CircleCollider2D:

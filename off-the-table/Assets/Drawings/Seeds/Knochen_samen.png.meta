@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: 9195213006844cdb6a339a50a602271c
+guid: 97691bc870fc52142b2712001fc95b23
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6943196687686493931
-    second: kackatus1_0
+      213: 4558638591058022811
+    second: Knochen_samen_0
   - first:
-      213: -2379318077051095011
-    second: kackatus1_1
+      213: -5551275535516802821
+    second: Knochen_samen_1
+  - first:
+      213: 7150641369008130601
+    second: Knochen_samen_2
+  - first:
+      213: 2230098702957586014
+    second: Knochen_samen_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: kackatus1_0
+      name: Knochen_samen_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 20
-        width: 228
-        height: 243
+        x: 62
+        y: 145
+        width: 14
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 51917c0366fc4af90800000000000000
-      internalID: -6943196687686493931
+      spriteID: b91966755a9834f30800000000000000
+      internalID: 4558638591058022811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kackatus1_1
+      name: Knochen_samen_1
       rect:
         serializedVersion: 2
-        x: 38
-        y: 236
-        width: 29
-        height: 30
+        x: 18
+        y: 1
+        width: 92
+        height: 142
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +146,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1834b9a0d6fafed0800000000000000
-      internalID: -2379318077051095011
+      spriteID: bf06437ff48e5f2b0800000000000000
+      internalID: -5551275535516802821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knochen_samen_2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 102
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a41fb707e2c3360800000000000000
+      internalID: 7150641369008130601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knochen_samen_3
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 33
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56a8db64f6e2fe10800000000000000
+      internalID: 2230098702957586014
       vertices: []
       indices: 
       edges: []
@@ -150,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      kackatus1_0: -6943196687686493931
-      kackatus1_1: -2379318077051095011
+      Knochen_samen_0: 4558638591058022811
+      Knochen_samen_1: -5551275535516802821
+      Knochen_samen_2: 7150641369008130601
+      Knochen_samen_3: 2230098702957586014
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
