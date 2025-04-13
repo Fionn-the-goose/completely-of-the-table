@@ -1250,6 +1250,10 @@ PrefabInstance:
       propertyPath: pickup_sound
       value: 
       objectReference: {fileID: 8300000, guid: 6b1f463ec4613bbc7a2ff35fd4d588bc, type: 3}
+    - target: {fileID: 820950204477505263, guid: c9060f2dac079bc618b79c7dcd3b07c9, type: 3}
+      propertyPath: dropdown_sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 06de484c894005f3295af7faa0cfbf65, type: 3}
     - target: {fileID: 1116975763257431483, guid: c9060f2dac079bc618b79c7dcd3b07c9, type: 3}
       propertyPath: m_Name
       value: PlantWindow
@@ -2901,6 +2905,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4251436673376435272, guid: 348da7d078c20915cb77a437ac232aae, type: 3}
+      propertyPath: buy
+      value: 
+      objectReference: {fileID: 8300000, guid: 7cc6f0ed63f025fce93575926a5c0b7a, type: 3}
+    - target: {fileID: 4251436673376435272, guid: 348da7d078c20915cb77a437ac232aae, type: 3}
       propertyPath: _audioSource
       value: 
       objectReference: {fileID: 609352228}
@@ -2911,7 +2919,7 @@ PrefabInstance:
     - target: {fileID: 4251436673376435272, guid: 348da7d078c20915cb77a437ac232aae, type: 3}
       propertyPath: dropdown_sound
       value: 
-      objectReference: {fileID: 8300000, guid: 7cc6f0ed63f025fce93575926a5c0b7a, type: 3}
+      objectReference: {fileID: 8300000, guid: 06de484c894005f3295af7faa0cfbf65, type: 3}
     - target: {fileID: 5136722168827466025, guid: 348da7d078c20915cb77a437ac232aae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.26

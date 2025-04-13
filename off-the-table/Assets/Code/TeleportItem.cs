@@ -5,6 +5,8 @@ public class TeleportItem : MonoBehaviour
 {
     [SerializeField] List<string> can_teleport = new();
     [SerializeField] private Transform destination;
+    [SerializeField] private AudioClip clip;
+    [SerializeField] private AudioSource source;
     //public bool is_destination = false;
     //public Transform ing_spawn;
     //private bool box_opened = false;
@@ -16,6 +18,7 @@ public class TeleportItem : MonoBehaviour
                     collision.gameObject.GetComponent<Package>().SetCanOpen(true);
                 }
                 Teleport_Item(collision.gameObject);
+                source.PlayOneShot(clip);
             }
         }
     }
