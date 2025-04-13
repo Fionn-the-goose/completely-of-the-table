@@ -21,7 +21,7 @@ public class PlantPot : MonoBehaviour
         plantVisuals.sprite = null;
     }
 
-    void OnCollisionEnterp2D(Collision2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
         //Debug.Log($"There is something: " + collision.gameObject.name);
         if(collision.gameObject.GetComponent<Sapling>()!=null && !isBlocked){
