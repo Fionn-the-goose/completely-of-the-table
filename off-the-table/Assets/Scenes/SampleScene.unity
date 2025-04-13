@@ -608,7 +608,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5.62
+  orthographic size: 5.58
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -633,7 +633,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.24, y: -1.76, z: -21.43239}
+  m_LocalPosition: {x: -2.07, y: -1.76, z: -21.43239}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1102,7 +1102,7 @@ MonoBehaviour:
     CustomLookAtTarget: 0
   Lens:
     FieldOfView: 34
-    OrthographicSize: 5.62
+    OrthographicSize: 5.58
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -1129,7 +1129,7 @@ Transform:
   m_GameObject: {fileID: 1189550819}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -245.74564, y: -2.2230985, z: -24.776585}
+  m_LocalPosition: {x: -245.57564, y: -2.2230985, z: -24.776585}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1404,7 +1404,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1694306266
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2301,7 +2301,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5916278483749563645, guid: 348da7d078c20915cb77a437ac232aae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.24
+      value: -2.07
       objectReference: {fileID: 0}
     - target: {fileID: 5916278483749563645, guid: 348da7d078c20915cb77a437ac232aae, type: 3}
       propertyPath: m_LocalPosition.y
