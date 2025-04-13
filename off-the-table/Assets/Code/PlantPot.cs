@@ -7,7 +7,8 @@ public class PlantPot : MonoBehaviour
     private PlantSO plantInfo;
     private bool isBlocked;
     private bool canYealdProduce;
-    [SerializeField] private SpriteRenderer plantVisuals;     
+    [SerializeField] private SpriteRenderer plantVisuals;
+    [SerializeField] private GameObject prodPrefab;
     void Start()
     {
         plantVisuals.sprite = null;
@@ -29,6 +30,22 @@ public class PlantPot : MonoBehaviour
         plantVisuals.sprite = plantInfo.spriteGrowing;
         yield return new WaitForSeconds(plantInfo.timeToMature);
         plantVisuals.sprite = plantInfo.spriteReady;
+        canYealdProduce = true;
     }
-
+    public void HarvestPlant(){
+        Debug.Log($"try initiate harvest");
+        if(canYealdProduce){
+            Debug.Log($"initiate harvest");
+            for(int i = 1; i <= plantInfo.numberOfProduce; i++){   
+                GameObject prod = Instantiate(prodPrefab ,transform.position,Quaternion.identity);
+                Produce bauntifull_harvest = prod.GetComponent<Produce>();
+                bauntifull_harvest.value = plantInfo.value;
+                bauntifull_harvest.SwapVisuals(plantInfo.produceSprite);
+                Debug.Log($"havest successfull");
+            }
+            isBlocked = false;
+            canYealdProduce = false;
+            plantVisuals.sprite = null;
+        }
+    }
 }
