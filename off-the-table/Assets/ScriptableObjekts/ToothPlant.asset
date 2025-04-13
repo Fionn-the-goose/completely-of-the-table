@@ -21,6 +21,6 @@ MonoBehaviour:
   value: 1
   numberOfProduce: 10
   produceSprite: {fileID: -5593779123336501297, guid: b9547fb87513726738099eefaf66ec86, type: 3}
-  seedSprite: {fileID: 4526934532787529931, guid: f1869f8ab058f4d8fa26d72f7774ecf9, type: 3}
+  seedSprite: {fileID: 7457900853250070159, guid: 8c9f8f4cdf8718e49b02b464289328cc, type: 3}
   firstIng: A
   secondIng: A

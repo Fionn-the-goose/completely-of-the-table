@@ -137,6 +137,9 @@ MonoBehaviour:
   allPossibillitys:
   - {fileID: 11400000, guid: f73a233819aa7d086ab58880a7479857, type: 2}
   - {fileID: 11400000, guid: 77b2de18578b559ed971ce1005898f2b, type: 2}
+  - {fileID: 11400000, guid: 832362602eab1e79da8ad8b92614cc0f, type: 2}
+  - {fileID: 11400000, guid: 97da37abc5d6543bba1d01421115d433, type: 2}
+  - {fileID: 11400000, guid: 9432e561ec186972796aa054043b2d70, type: 2}
   outputLocation: {fileID: 2321881810074243117}
 --- !u!61 &-8617760212859858159
 BoxCollider2D:
