@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      knochig_0: 595699633972498014
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
