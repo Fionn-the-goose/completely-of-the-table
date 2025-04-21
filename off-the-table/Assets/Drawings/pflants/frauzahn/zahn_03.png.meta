@@ -103,10 +103,10 @@ TextureImporter:
       name: frauzahn_0
       rect:
         serializedVersion: 2
-        x: 36
-        y: 49
-        width: 181
-        height: 357
+        x: 51
+        y: 58
+        width: 166
+        height: 348
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

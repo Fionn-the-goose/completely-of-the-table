@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dbf6a64c5689fa59a6326736ab97d92, type: 3}
+  m_Name: spider 3
+  m_EditorClassIdentifier: 
+  spriteSappling: {fileID: -5773078292899760878, guid: e77e776b77f628e418d4880111dafe22, type: 3}
+  spriteGrowing: {fileID: 7562761929935853225, guid: 367a15fcbff77484d8dd3bf1f3946f3c, type: 3}
+  spriteReady: {fileID: -8663787029369218265, guid: ed10c8519d0f0414280680fe353cddb9, type: 3}
+  timeToGrow: 30
+  timeToMature: 30
+  Sound: {fileID: 8300000, guid: 8708b7483e43588b09faa1e4c34762aa, type: 3}
+  value: 4
+  PrduceName: Spinne
+  numberOfProduce: 3
+  produceSprite: {fileID: -4822621852456739877, guid: 76b4ac2509e894e4bb4cee7be1ecc75b, type: 3}
+  seedSprite: {fileID: -2379318077051095011, guid: 9195213006844cdb6a339a50a602271c, type: 3}
+  firstIng: D
+  secondIng: D

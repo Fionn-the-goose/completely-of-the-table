@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dbf6a64c5689fa59a6326736ab97d92, type: 3}
   m_Name: Kacktus
   m_EditorClassIdentifier: 
-  spriteSappling: {fileID: 5781175249468801161, guid: 5b5113589fa64539cab3c58a19bd007b, type: 3}
-  spriteGrowing: {fileID: -6320242838400795142, guid: 97ce19ab07a52aa83939863cc3405027, type: 3}
+  spriteSappling: {fileID: -6943196687686493931, guid: 9195213006844cdb6a339a50a602271c, type: 3}
+  spriteGrowing: {fileID: -6268442533451285849, guid: cc3793053e6b12fc2ae9f53831f8e73d, type: 3}
   spriteReady: {fileID: 1131622482060470173, guid: 8dc05074adfe9618db9382922ad6729a, type: 3}
   timeToGrow: 5
   timeToMature: 20
   Sound: {fileID: 8300000, guid: 2ec9e705a9fa18c72a8ec8c1e7570c66, type: 3}
-  value: 12
+  value: 16
   PrduceName: Kaktus
-  numberOfProduce: 3
+  numberOfProduce: 2
   produceSprite: {fileID: -7388621539439861002, guid: 3a00bd0e3afe7a641bc323a42e76e6de, type: 3}
   seedSprite: {fileID: -5375034617425366545, guid: 139fe88e54eccad46adbc06697aca51d, type: 3}
   firstIng: A

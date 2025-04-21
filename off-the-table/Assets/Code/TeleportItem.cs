@@ -10,6 +10,7 @@ public class TeleportItem : MonoBehaviour
     //public bool is_destination = false;
     //public Transform ing_spawn;
     //private bool box_opened = false;
+    
 
     void OnCollisionEnter2D(Collision2D collision){
         foreach (string item in can_teleport){
@@ -17,6 +18,7 @@ public class TeleportItem : MonoBehaviour
                 if(collision.gameObject.GetComponent<Package>() != null){
                     collision.gameObject.GetComponent<Package>().SetCanOpen(true);
                 }
+                collision.gameObject.GetComponent<Item>().SetTeleportStatus(true);
                 Teleport_Item(collision.gameObject);
                 source.PlayOneShot(clip);
             }

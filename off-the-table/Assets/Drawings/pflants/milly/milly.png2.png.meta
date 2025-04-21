@@ -103,10 +103,10 @@ TextureImporter:
       name: milly.png2_0
       rect:
         serializedVersion: 2
-        x: 30
-        y: 48
-        width: 195
-        height: 208
+        x: 25
+        y: 56
+        width: 200
+        height: 200
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

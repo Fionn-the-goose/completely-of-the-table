@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Numerics;
 using NUnit.Framework;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -42,7 +43,7 @@ public class Package : Item {
     void Update()
     {
         base.Update();
-        if(clicCounter >= 5){
+        if(clicCounter >= 3){
             clicCounter = 0;
             if(can_open == true){
                 UnpackBox();
@@ -102,24 +103,37 @@ public class Package : Item {
     //    can_open = canopen;
     //}
 
- /*    public void sendBox(){
-        box_sent = true;
-    } */
+    /*    public void sendBox(){
+           box_sent = true;
+       } */
 
     /// <summary>
     /// OnMouseDown is called when the user has pressed the mouse button while
     /// over the GUIElement or Collider.
     /// </summary>
-    public override void OnMouseDown()
+
+    void OnMouseDown()
     {
         base.OnMouseDown();
-        Debug.Log($"clic: !!!" + clicCounter);
-        clicCounter++;
-        if(!coroutineIsActive){
-            coroutineIsActive = true;
-            StartCoroutine(Open_Box());
+        if(can_open && clicCounter >= 1){
+            gameObject.transform.localScale -= new UnityEngine.Vector3(0.5f, 0.5f);
         }
-        
+    }
+
+    public override void OnMouseUp()
+    {
+        base.OnMouseUp();
+        if(can_open){
+            if(clicCounter >= 1){
+                gameObject.transform.localScale += new UnityEngine.Vector3(0.5f, 0.5f);
+            }
+            Debug.Log($"clic: !!!" + clicCounter);
+            clicCounter++;
+            if(!coroutineIsActive){
+                coroutineIsActive = true;
+                StartCoroutine(Open_Box());
+            }
+        }
     }
     
     public IEnumerator Open_Box() {

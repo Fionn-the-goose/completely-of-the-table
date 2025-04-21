@@ -106,10 +106,10 @@ TextureImporter:
       name: frauzahn.png2_0
       rect:
         serializedVersion: 2
-        x: 54
-        y: 50
-        width: 144
-        height: 230
+        x: 65
+        y: 56
+        width: 133
+        height: 224
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

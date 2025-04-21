@@ -107,8 +107,6 @@ MonoBehaviour:
   pickup_sound: {fileID: 8300000, guid: 68fe420fe58016f17b44a8eec92d0e43, type: 3}
   dropdown_sound: {fileID: 8300000, guid: a3bc752aca8520198954139a33dfabee, type: 3}
   _name: 
-  teleport: {fileID: 0}
-  destination: {fileID: 0}
   value: 0
 --- !u!58 &4632800013687997737
 CircleCollider2D:

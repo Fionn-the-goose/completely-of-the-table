@@ -180,9 +180,7 @@ MonoBehaviour:
   pickup_sound: {fileID: 8300000, guid: a62f3da26be6a5829b1d636268101717, type: 3}
   dropdown_sound: {fileID: 8300000, guid: 06de484c894005f3295af7faa0cfbf65, type: 3}
   _name: A
-  teleport: {fileID: 0}
-  destination: {fileID: 0}
-  price: 1
+  price: 15
   wallet: {fileID: 11400000, guid: afb6c41c11fab1a4e8b030165b589ce3, type: 2}
   depositSpot: {fileID: 0}
   name_: B

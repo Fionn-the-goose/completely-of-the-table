@@ -103,12 +103,12 @@ TextureImporter:
       name: pfrenn.plantse.png3_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 45
-        width: 240
-        height: 464
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 8
+        y: 57
+        width: 237
+        height: 452
+      alignment: 9
+      pivot: {x: 0.5386411, y: 0.0043794326}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

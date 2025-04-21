@@ -73,7 +73,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5287199124686217119}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -140,6 +140,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 832362602eab1e79da8ad8b92614cc0f, type: 2}
   - {fileID: 11400000, guid: 97da37abc5d6543bba1d01421115d433, type: 2}
   - {fileID: 11400000, guid: 9432e561ec186972796aa054043b2d70, type: 2}
+  - {fileID: 11400000, guid: d1be85e9865ae3579a44d58d1d0fc563, type: 2}
+  - {fileID: 11400000, guid: 5b19a784418ad726ca0a0e220cee5525, type: 2}
   outputLocation: {fileID: 2321881810074243117}
 --- !u!61 &-8617760212859858159
 BoxCollider2D:
@@ -175,7 +177,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.036140144, y: 0.041340478}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -185,5 +187,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 0.5}
+  m_Size: {x: 0.33909404, y: 0.58268076}
   m_EdgeRadius: 0

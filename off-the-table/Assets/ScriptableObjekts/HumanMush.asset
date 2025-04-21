@@ -21,7 +21,7 @@ MonoBehaviour:
   value: 60
   PrduceName: Mensch
   numberOfProduce: 3
-  produceSprite: {fileID: -7285403338413965180, guid: 19732e8b0d2f75f49af69fc786ca1cd7, type: 3}
-  seedSprite: {fileID: 21300000, guid: 97691bc870fc52142b2712001fc95b23, type: 3}
+  produceSprite: {fileID: 797249972778392469, guid: 096ec745e2c453049ac0a97ea1c5f806, type: 3}
+  seedSprite: {fileID: 3005873682714136763, guid: 1437c03f68758b840a98599b6bad82e9, type: 3}
   firstIng: A
   secondIng: C

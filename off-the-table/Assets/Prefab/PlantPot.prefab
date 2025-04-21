@@ -108,7 +108,7 @@ MonoBehaviour:
   matureAudio: {fileID: 761059749486927138}
   plantVisuals: {fileID: 4797064004366731994}
   prodPrefab: {fileID: 2704482492000565754, guid: 2901ae4da02cb1dedb075366ef773ecd, type: 3}
-  accillerateGroth: 1
+  accillerateGroth: 0
   produceOutput: {fileID: 3487668259814478190}
 --- !u!61 &7505110800004085610
 BoxCollider2D:
@@ -313,8 +313,8 @@ Transform:
   m_GameObject: {fileID: 8297852061533125703}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.023, y: 0.51, z: 0}
-  m_LocalScale: {x: 0.99, y: 1.98, z: 1.98}
+  m_LocalPosition: {x: -0.023, y: 0.16, z: 0}
+  m_LocalScale: {x: 0.69, y: 1.38, z: 1.38}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 4616550789399194647}
@@ -363,7 +363,7 @@ SpriteRenderer:
   m_SortingLayerID: 2143378585
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
+  m_Sprite: {fileID: -8761825896554439082, guid: 08da404a02076de1db2d6f13e979c225, type: 3}
   m_Color: {r: 0.66471165, g: 0.71355736, b: 0.7010339, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -423,8 +423,8 @@ BoxCollider2D:
   m_Offset: {x: 0.003563881, y: 0.9129424}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.28866667}
-    oldSize: {x: 1, y: 1}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.86, y: 0.22}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

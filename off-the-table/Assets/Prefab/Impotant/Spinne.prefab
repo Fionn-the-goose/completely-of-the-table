@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3074254449068077503}
   - component: {fileID: 4194473362571885130}
-  - component: {fileID: 2898212124085279083}
   - component: {fileID: 1879615311271430318}
   - component: {fileID: 6260175675515444446}
+  - component: {fileID: 2609135721270099086}
   m_Layer: 0
   m_Name: Spinne
   m_TagString: Untagged
@@ -90,52 +90,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2898212124085279083
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6670358193840802815}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0.15018183, y: 0.011105418}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.48, y: 2.56}
-    newSize: {x: 1.55, y: 1.9}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1.034962, y: 1.8777893}
-  m_EdgeRadius: 0
 --- !u!50 &1879615311271430318
 Rigidbody2D:
   serializedVersion: 5
@@ -179,11 +133,46 @@ MonoBehaviour:
   pickup_sound: {fileID: 8300000, guid: 6b1f463ec4613bbc7a2ff35fd4d588bc, type: 3}
   dropdown_sound: {fileID: 8300000, guid: 06de484c894005f3295af7faa0cfbf65, type: 3}
   _name: D
-  teleport: {fileID: 0}
-  destination: {fileID: 0}
   price: 1
   wallet: {fileID: 11400000, guid: afb6c41c11fab1a4e8b030165b589ce3, type: 2}
   depositSpot: {fileID: 0}
   name_: D
-  isShopVarient: 1
+  isShopVarient: 0
   buy: {fileID: 8300000, guid: 7cc6f0ed63f025fce93575926a5c0b7a, type: 3}
+--- !u!70 &2609135721270099086
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6670358193840802815}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.2482152, y: 0}
+  m_Size: {x: 0.9527254, y: 2.5600002}
+  m_Direction: 0

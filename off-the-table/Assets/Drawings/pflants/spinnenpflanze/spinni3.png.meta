@@ -103,12 +103,12 @@ TextureImporter:
       name: spinni3_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 43
-        width: 234
-        height: 428
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 8
+        y: 63
+        width: 236
+        height: 408
+      alignment: 9
+      pivot: {x: 0.51733845, y: 0.0028637904}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 405bfd0c19366ed44bdda38dabfa116e
     internalID: 0
     vertices: []
     indices: 

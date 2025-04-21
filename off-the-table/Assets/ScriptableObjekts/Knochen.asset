@@ -18,7 +18,7 @@ MonoBehaviour:
   timeToGrow: 15
   timeToMature: 10
   Sound: {fileID: 8300000, guid: 8708b7483e43588b09faa1e4c34762aa, type: 3}
-  value: 200
+  value: 100
   PrduceName: Mark
   numberOfProduce: 1
   produceSprite: {fileID: -7285403338413965180, guid: 19732e8b0d2f75f49af69fc786ca1cd7, type: 3}

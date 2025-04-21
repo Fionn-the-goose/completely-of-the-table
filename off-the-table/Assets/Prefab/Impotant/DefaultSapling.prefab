@@ -31,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.031476974, y: -1.0108988, z: 12.562538}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2036000103
   m_SortingLayer: 3
-  m_SortingOrder: 0
+  m_SortingOrder: 417
   m_Sprite: {fileID: 4526934532787529931, guid: f1869f8ab058f4d8fa26d72f7774ecf9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -143,8 +143,6 @@ MonoBehaviour:
   pickup_sound: {fileID: 8300000, guid: 68fe420fe58016f17b44a8eec92d0e43, type: 3}
   dropdown_sound: {fileID: 8300000, guid: a3bc752aca8520198954139a33dfabee, type: 3}
   _name: sap
-  teleport: {fileID: 0}
-  destination: {fileID: 0}
   plant: {fileID: 0}
 --- !u!50 &2043283691500266008
 Rigidbody2D:

@@ -18,10 +18,10 @@ MonoBehaviour:
   timeToGrow: 30
   timeToMature: 30
   Sound: {fileID: 8300000, guid: 8708b7483e43588b09faa1e4c34762aa, type: 3}
-  value: 500
+  value: 45
   PrduceName: Spinne
   numberOfProduce: 3
-  produceSprite: {fileID: -7388621539439861002, guid: 3a00bd0e3afe7a641bc323a42e76e6de, type: 3}
-  seedSprite: {fileID: -5375034617425366545, guid: 139fe88e54eccad46adbc06697aca51d, type: 3}
+  produceSprite: {fileID: -4822621852456739877, guid: 76b4ac2509e894e4bb4cee7be1ecc75b, type: 3}
+  seedSprite: {fileID: -2379318077051095011, guid: 9195213006844cdb6a339a50a602271c, type: 3}
   firstIng: A
   secondIng: D
